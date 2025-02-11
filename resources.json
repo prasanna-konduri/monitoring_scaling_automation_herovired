@@ -1,0 +1,10 @@
+{
+    "bucket_name": "demo1234345678",
+    "security_group_id": "sg-02b7928ec6ef05174",
+    "instance_id": "i-0babaa32e48a3f376",
+    "load_balancer_arn": "arn:aws:elasticloadbalancing:us-west-2:975050024946:loadbalancer/app/webapp-lb1/f42c1a9ccea33796",
+    "target_group_arn": "arn:aws:elasticloadbalancing:us-west-2:975050024946:targetgroup/webapp-tg1/0fa454c8e60ecc1a",
+    "launch_template_id": "lt-077a004058e7a0a89",
+    "auto_scaling_group_name": "my-asg1",
+    "sns_topic": "arn:aws:sns:us-west-2:975050024946:demo-sns"
+}

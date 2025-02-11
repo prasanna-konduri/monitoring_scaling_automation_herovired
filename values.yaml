@@ -1,0 +1,21 @@
+## ASG Values
+auto_scaling_group_name: Mon-scl-asg
+launch_configuration_name: pkconfig-demo
+launch_template_name: my-asg-template
+min_size: 1
+max_size: 2
+desired_capacity: 1
+image_id: ami-079d5f857fc5b7040
+instance_type: t2.micro
+subnet_id: ['subnet-0fdcbdc2a497baba2', 'subnet-02de56b4ddb849000']
+security_group_id: sg-092c1fcbfaf1963ea
+bucket_name: 
+vpc_id: vpc-09b3e46c39a03b8de
+loadbalancer_name: webapp-LB
+lb_targetgroup: web-app-group
+ec2_name: webapp
+sns_topic_name: mon-sns
+protocol: email
+email_id: pkgajula1997@gmail.com
+subject: 'Alert'
+message: 'health issues Alert'
